@@ -41,7 +41,7 @@ ul{
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    padding: 5px 60px 0 60px;
+    padding: 5px 85px 0 85px;
     flex-grow: 1;
     flex-basis: 0;
 }
@@ -83,7 +83,7 @@ ul{
 .core{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-grow: 1;
 }
 
@@ -140,7 +140,14 @@ ul{
     flex-basis: 0;
 }
 
-.quote .text{
+.wrapper{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 0 55px;
+}
+
+.wrapper .text{
    font-style: italic;
    font-size: 36px;
    color: #1F2937;
@@ -149,7 +156,7 @@ ul{
    max-width: 810px;
 }
 
-.quote .by{
+.wrapper .by{
     flex-basis: 0;
     align-self: flex-end;
     color: #1F2937;

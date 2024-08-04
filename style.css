@@ -6,7 +6,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: Roboto;
-    height:100vh;
+    height:130vh;
     box-sizing: border-box;
 }
 
@@ -43,6 +43,7 @@ ul{
     flex-direction: column;
     padding: 5px 60px 0 60px;
     flex-grow: 1;
+    flex-basis: 0;
 }
 
 .text{
@@ -94,8 +95,12 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     gap: 40px;
+    flex-basis: 0;
+}
+
+.info h2{
+    padding-top: 40px;
 }
 
 .wimg{
@@ -123,4 +128,35 @@ ul{
     border: 4px solid #3882F6;
     border-radius: 20px;
 }
+
+.quote{
+    flex-grow: 1;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 55px;
+    flex-basis: 0;
+}
+
+.quote .text{
+   font-style: italic;
+   font-size: 36px;
+   color: #1F2937;
+   font-weight: lighter; 
+   flex-basis: 0;
+   max-width: 810px;
+}
+
+.quote .by{
+    flex-basis: 0;
+    align-self: flex-end;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
 

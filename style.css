@@ -6,10 +6,16 @@ body{
     padding: 0;
     margin: 0;
     font-family: Roboto;
+    height:100vh;
+    box-sizing: border-box;
 }
 
 a{
     text-decoration: none;
+
+}
+
+.text p, a, .text button{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -18,10 +24,10 @@ ul{
     list-style-type: none;
     display: flex;
     gap: 15px;
-    padding: 2px 60px 0px 60px;
     margin: 0;
+    padding: 5px 0 0 0;
     align-items: center;
-
+    justify-content: space-around;
 }
 
 #logo{
@@ -33,4 +39,54 @@ ul{
 
 .header{
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 60px 0 60px;
+    flex-grow: 1;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-basis: 450px;
+    gap: 8px;
+}
+
+.text h1, .text p, .text button{
+    margin: 0;
+    padding: 0;
+}
+
+.text h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.text button{
+    background-color: #3882F6;
+    padding: 5px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+}
+
+.core img{
+    width: 360px;
+    height: 163px;
+}
+
+
+.core{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+.info{
+    flex-grow: 1;
+    background-color: white;
 }

@@ -6,7 +6,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: Roboto;
-    height:130vh;
+    height:160vh;
     box-sizing: border-box;
 }
 
@@ -65,7 +65,7 @@ ul{
     color: #F9FAF8;
 }
 
-.text button{
+.text button, .blue button{
     background-color: #3882F6;
     padding: 5px 20px;
     font-weight: bold;
@@ -157,6 +157,41 @@ ul{
     font-weight: bold;
 }
 
+.action{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 0;
+    padding: 0 120px;
+}
 
+.action .blue{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 7px;
+    padding: 60px 0px;
+    flex-grow: 1;
+}
+
+.content h4{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.content p{
+    color: #F9FAF8;
+    font-size: 18px;
+
+}
+
+.blue button{
+    border: 1px solid #F9FAF8;
+    color: #F9FAF8;
+    font-size: 18px;
+}
 
 

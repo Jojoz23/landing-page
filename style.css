@@ -15,7 +15,7 @@ a{
 
 }
 
-.text p, a, .text button{
+.text p, a, .text button, .info .img{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -50,10 +50,10 @@ ul{
     flex-direction: column;
     align-items: flex-start;
     flex-basis: 450px;
-    gap: 8px;
+    gap: 10px;
 }
 
-.text h1, .text p, .text button{
+*{
     margin: 0;
     padding: 0;
 }
@@ -86,7 +86,41 @@ ul{
     flex-grow: 1;
 }
 
-.info{
+.info {
     flex-grow: 1;
-    background-color: white;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
 }
+
+.wimg{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 170px;
+    gap: 7px;
+}
+
+.img p{
+    text-align: center;
+    font-weight: normal;
+}
+
+.img img{
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+}
+
